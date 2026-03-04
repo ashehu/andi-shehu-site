@@ -186,6 +186,25 @@ a:focus-visible {
   max-width: 65ch;
 }
 
+.hero-cta {
+  margin: 0 0 0.28rem;
+  font-size: 0.94rem;
+}
+
+.hero-cta a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(20, 20, 20, 0.55);
+}
+
+.hero-cta a:hover {
+  border-bottom-color: var(--ink);
+}
+
+.hero-cta span {
+  margin: 0 0.35rem;
+  color: var(--ink-soft);
+}
+
 .location {
   margin: 0.2rem 0 0.7rem;
   font-weight: 500;
@@ -316,6 +335,48 @@ a:focus-visible {
   padding-left: 1.2rem;
   display: grid;
   gap: 0.55rem;
+}
+
+.work-ledger {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.work-ledger li {
+  position: relative;
+  padding: 0.42rem 0 0.42rem 2.05rem;
+  border: 0;
+  background: transparent;
+}
+
+.work-ledger li::before {
+  content: ">>";
+  position: absolute;
+  left: 0.12rem;
+  top: 0.46rem;
+  font-family: "Special Elite", monospace;
+  font-size: 0.76rem;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}
+
+.work-label {
+  display: block;
+  margin: 0 0 0.12rem;
+  font-family: "Special Elite", monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+}
+
+.work-copy {
+  display: block;
+  font-size: 0.98rem;
+  line-height: 1.38;
 }
 
 .timeline {
