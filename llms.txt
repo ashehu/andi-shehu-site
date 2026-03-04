@@ -1,0 +1,25 @@
+# Andi Shehu, PhD
+
+Official profile and service overview for Andi Shehu, PhD.
+
+## Summary
+- Founder and Applied AI Principal at Byteflows.
+- LLM and AI Systems Architect focused on production reliability, evaluation, and business outcomes.
+- Advisor to NYU on applied AI.
+- Based in New York, NY.
+
+## Primary URL
+- https://andishehu.byteflows.com/
+
+## Professional Profile
+- LinkedIn: https://www.linkedin.com/in/andi-shehu/
+
+## Contact
+- Email: ashehu@byteflows.com
+
+## Focus Areas
+- LLM system architecture
+- Applied machine learning
+- AI strategy and implementation
+- Retrieval and enterprise search
+- Evaluation, governance, and model quality

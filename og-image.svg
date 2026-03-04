@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Andi Shehu, PhD - AI Strategy and Delivery</title>
+  <desc id="desc">Editorial social preview card for Andi Shehu with retro masthead styling.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f1e6" />
+      <stop offset="1" stop-color="#ece4d6" />
+    </linearGradient>
+    <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.6" fill="#d8cfbc" />
+      <circle cx="5" cy="4" r="0.5" fill="#d5ccb8" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#paper)" />
+  <rect width="1200" height="630" fill="url(#grain)" opacity="0.28" />
+  <rect x="32" y="32" width="1136" height="566" fill="#fdf8ef" stroke="#1f3c5d" stroke-width="4" />
+
+  <text x="72" y="95" fill="#1f3c5d" font-family="'Special Elite', Georgia, serif" font-size="30" letter-spacing="2">
+    THE BYTEFLOWS REVIEW
+  </text>
+  <line x1="70" y1="110" x2="1130" y2="110" stroke="#1f3c5d" stroke-width="2" />
+
+  <text x="72" y="182" fill="#121820" font-family="'Cormorant Garamond', Georgia, serif" font-size="76" font-weight="700">
+    Andi Shehu, PhD
+  </text>
+  <text x="72" y="238" fill="#2a3a4f" font-family="'IBM Plex Sans', Arial, sans-serif" font-size="35" font-weight="600">
+    LLM and AI Systems Architect
+  </text>
+  <text x="72" y="282" fill="#2a3a4f" font-family="'IBM Plex Sans', Arial, sans-serif" font-size="35" font-weight="600">
+    Principal Applied AI Specialist
+  </text>
+
+  <text x="72" y="356" fill="#222b38" font-family="'IBM Plex Sans', Arial, sans-serif" font-size="28">
+    Founder and Applied AI Principal at Byteflows
+  </text>
+  <text x="72" y="397" fill="#222b38" font-family="'IBM Plex Sans', Arial, sans-serif" font-size="28">
+    Advisor to NYU on applied AI
+  </text>
+
+  <rect x="70" y="450" width="620" height="95" fill="#f5cf9b" stroke="#1f3c5d" stroke-width="3" />
+  <text x="92" y="504" fill="#132a46" font-family="'Cormorant Garamond', Georgia, serif" font-size="44" font-weight="700">
+    "The work should speak first."
+  </text>
+
+  <g transform="translate(758 184)">
+    <rect x="0" y="0" width="335" height="250" rx="6" fill="#fff4df" stroke="#1f3c5d" stroke-width="3" />
+    <text x="20" y="36" fill="#1f3c5d" font-family="'Special Elite', Georgia, serif" font-size="18">
+      FIELD NOTES
+    </text>
+    <line x1="18" y1="45" x2="316" y2="45" stroke="#1f3c5d" stroke-width="1.5" />
+    <circle cx="78" cy="116" r="34" fill="none" stroke="#1f3c5d" stroke-width="3" />
+    <circle cx="66" cy="107" r="3" fill="#1f3c5d" />
+    <circle cx="90" cy="107" r="3" fill="#1f3c5d" />
+    <path d="M60 127 Q78 140 96 127" fill="none" stroke="#1f3c5d" stroke-width="3" />
+    <path d="M42 164 L78 141 L114 164" fill="none" stroke="#1f3c5d" stroke-width="3" />
+    <line x1="148" y1="98" x2="298" y2="98" stroke="#6d7f93" stroke-width="2" />
+    <line x1="148" y1="124" x2="300" y2="124" stroke="#6d7f93" stroke-width="2" />
+    <line x1="148" y1="150" x2="282" y2="150" stroke="#6d7f93" stroke-width="2" />
+    <line x1="148" y1="176" x2="270" y2="176" stroke="#6d7f93" stroke-width="2" />
+  </g>
+
+  <text x="72" y="578" fill="#304963" font-family="'IBM Plex Sans', Arial, sans-serif" font-size="24">
+    andishehu.byteflows.com
+  </text>
+</svg>
