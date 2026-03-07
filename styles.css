@@ -515,6 +515,93 @@ a:focus-visible {
   margin: 0.18rem 0;
 }
 
+.subpage-shell {
+  width: min(860px, 92vw);
+}
+
+.subpage-hero {
+  display: grid;
+  gap: 0.55rem;
+  background: linear-gradient(180deg, #eff0eb 0%, #fffdfa 100%);
+}
+
+.subpage-hero p,
+.subpage-hero h1 {
+  margin: 0;
+}
+
+.subpage-kicker,
+.back-link {
+  font-family: "Special Elite", monospace;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+}
+
+.back-link {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(20, 20, 20, 0.35);
+}
+
+.back-link:hover {
+  border-bottom-color: var(--ink);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.contact-card {
+  border: 1px solid rgba(38, 35, 31, 0.5);
+  background: linear-gradient(180deg, #fffefb 0%, #f4f6f1 100%);
+  padding: 0.85rem 0.95rem;
+}
+
+.contact-card h2 {
+  margin: 0 0 0.2rem;
+  font-size: 1.2rem;
+}
+
+.contact-card p {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.action-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.42rem 0.72rem;
+  border: 1px solid var(--line);
+  background: #f5f7f3;
+  text-decoration: none;
+  font-size: 0.94rem;
+}
+
+.action-link:hover {
+  background: #eef1ea;
+}
+
+.subpage-note {
+  margin: 0;
+  color: var(--ink-soft);
+  max-width: 62ch;
+}
+
+.redirect-note {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
 .footer {
   text-align: center;
 }
@@ -542,7 +629,8 @@ a:focus-visible {
   .proof-grid,
   .standards-grid,
   .stack-grid,
-  .margin-layout {
+  .margin-layout,
+  .contact-grid {
     grid-template-columns: 1fr;
   }
 

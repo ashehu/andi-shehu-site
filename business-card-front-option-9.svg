@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1125" height="675" viewBox="0 0 1125 675" role="img" aria-labelledby="title desc">
+  <title id="title">Business card front option nine</title>
+  <desc id="desc">Front for business card option nine.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f3ea" />
+      <stop offset="1" stop-color="#ece4d6" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf8" />
+      <stop offset="1" stop-color="#f4eee2" />
+    </linearGradient>
+    <pattern id="grain" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#d7cfbf" />
+      <circle cx="8" cy="6" r="0.7" fill="#d3cab9" />
+      <circle cx="4" cy="9" r="0.55" fill="#d9d0bf" />
+    </pattern>
+    <style><![CDATA[
+      .bleed { fill: url(#paper); }
+      .grain { fill: url(#grain); opacity: 0.22; }
+      .trim { fill: url(#panel); stroke: #26231f; stroke-width: 2; }
+      .crop { stroke: #26231f; stroke-width: 2; }
+      .rule { stroke: #1f3c5d; stroke-width: 2.5; }
+      .fine-rule { stroke: #7d8b97; stroke-width: 1.4; }
+      .ink { fill: #141414; }
+      .ink-soft { fill: #3c3a37; }
+      .muted { fill: #66717c; }
+      .blue { fill: #1f3c5d; }
+      .serif { font-family: "Cormorant Garamond", Georgia, serif; }
+      .sans { font-family: "IBM Plex Sans", "Trebuchet MS", sans-serif; }
+      .caps { font-family: "IBM Plex Sans", "Trebuchet MS", sans-serif; text-transform: uppercase; letter-spacing: 2px; font-weight: 600; }
+    ]]></style>
+  </defs>
+  <rect x="0" y="0" width="1125" height="675" class="bleed" />
+  <rect x="0" y="0" width="1125" height="675" class="grain" />
+  <line x1="18" y1="60" x2="70" y2="60" class="crop" />
+  <line x1="42" y1="18" x2="42" y2="70" class="crop" />
+  <line x1="1055" y1="60" x2="1107" y2="60" class="crop" />
+  <line x1="1083" y1="18" x2="1083" y2="70" class="crop" />
+  <line x1="18" y1="615" x2="70" y2="615" class="crop" />
+  <line x1="42" y1="605" x2="42" y2="657" class="crop" />
+  <line x1="1055" y1="615" x2="1107" y2="615" class="crop" />
+  <line x1="1083" y1="605" x2="1083" y2="657" class="crop" />
+  <rect x="37.5" y="37.5" width="1050" height="600" rx="14" class="trim" />
+  <text x="120" y="132" class="caps blue" font-size="18">BYTEFLOWS</text>
+  <line x1="118" y1="150" x2="1006" y2="150" class="rule" />
+  <text x="120" y="258" class="serif ink" font-size="82" font-weight="700">Andi Shehu, PhD</text>
+  <text x="124" y="316" class="sans ink-soft" font-size="28" font-weight="600">Applied AI Principal</text>
+  <text x="124" y="358" class="sans muted" font-size="23">New York, NY</text>
+  <text x="124" y="430" class="sans ink" font-size="24">347-278-2892</text>
+  <line x1="122" y1="448" x2="468" y2="448" class="fine-rule" />
+</svg>
